@@ -1,8 +1,8 @@
 <template>
-  <h4 class="mb-3 text-center text-xl font-medium uppercase text-blue-600 md:text-2xl border-b-2 border-blue-300">
+  <h4 class="mb-3 text-center text-xl font-medium uppercase text-blue-600 md:text-2xl border-b-2 border-blue-300 dark:text-white dark:border-white">
     habilidades
   </h4>
-  <div class="border-b-2 border-blue-100 pb-3">
+  <div class="border-b-2 border-blue-100 pb-3 dark:text-white">
     <h4 class="text-center font-bold md:font-semibold md:text-left mb-2 text-lg underline md:no-underline">FrontEnd</h4>
     Javascript
     <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 mb-2">
@@ -59,7 +59,7 @@
       </div>
     </div>
   </div>
-  <div class="border-b-2 border-blue-100 pb-3">
+  <div class="border-b-2 border-blue-100 pb-3 dark:text-white">
     <h4 class="text-center font-bold md:font-semibold md:text-left mb-2 text-lg underline md:no-underline mt-3">BackEnd</h4>
     Php
     <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 mb-2">
@@ -98,9 +98,9 @@
       </div>
     </div>
   </div>
-  <div class="border-b-2 border-blue-100 pb-3">
+  <div class="border-b-2 border-blue-100 pb-3 dark:text-white">
     <h4 class="text-center font-bold md:font-semibold md:text-left mb-2 text-lg underline md:no-underline mt-3">DevOps</h4>
-    Git|Git Flow | Bitbucket|GitLab|GitHub
+    Git|Git Flow|Bitbucket|GitLab|GitHub
     <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700 mb-2">
       <div class="bg-blue-500 font-medium text-white text-center h-2.5 leading-none rounded-full w-50"
         style="width: 80%">

@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex md:flex-row border-b-4 border-blue-300 py-6">
+  <div class="md:flex md:flex-row border-b-4 border-blue-300 py-6 dark:text-white dark:border-blue-200">
     <div class="md:basis-1/3">
       <div class="flex justify-center">
         <img class="h-56 rounded-lg" src="../assets/me.png" alt="me" />
@@ -18,9 +18,12 @@
       <br />
       <a href="tel:+573132458975" class="underline hover:font-semibold"> +57 3132458975 </a>
     </div>
+    <div class="fixed top-2 ml-2 z-50">
+      <ButtonModeDark />
+    </div>
   </div>
-  <div class="grid border-b-2 border-blue-300 py-5 px-4 sm:px-12">
-    <h4 class="mb-3 mb-0 mb-2 text-center text-xl font-medium uppercase text-blue-600 sm:text-left sm:text-2xl">
+  <div class="grid border-b-2 border-blue-300 py-5 px-4 sm:px-12 dark:text-white dark:border-blue-200">
+    <h4 class="mb-3 mb-0 mb-2 text-center text-xl font-medium uppercase text-blue-600 dark:text-white dark:underline sm:text-left sm:text-2xl">
       Sobre mí
     </h4>
     <p class="text-justify">
@@ -35,3 +38,6 @@
     </p>
   </div>
 </template>
+<script setup>
+import ButtonModeDark from "../components/ButtonModeDark.vue";
+</script>
