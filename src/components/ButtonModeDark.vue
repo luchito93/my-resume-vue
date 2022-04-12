@@ -1,6 +1,6 @@
 <template>
   <button id="theme-toggle" type="button" @click="changeModeDark()"
-    class="text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2 border-2">
+    class="text-black dark:text-white hover:bg-gray-100 bg-white dark:bg-gray-800 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2 border-2">
     <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
       xmlns="http://www.w3.org/2000/svg">
       <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
@@ -20,7 +20,8 @@ export default {
     let themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
     // Change the icons inside the button based on previous settings
-    if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (localStorage.getItem('color-theme') === 'dark') {
+      document.documentElement.classList.add('dark');
       themeToggleLightIcon.classList.remove('hidden');
     } else {
       themeToggleDarkIcon.classList.remove('hidden');
