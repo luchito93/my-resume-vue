@@ -1,7 +1,8 @@
 <template>
   <footer
     class="
-      absolute
+      container
+      mx-auto
       bottom-0
       w-full
       bg-gray-100

@@ -1,64 +1,19 @@
 <template>
   <div class="relative">
     <div class="container mx-auto bg-white shadow-2xl">
-      <div class="grid border-b-4 py-6 sm:grid-flow-col sm:grid-rows-1">
-        <div class="row-span-2">
-          <div class="flex justify-center">
-            <img class="h-56 rounded-lg" src="../assets/me.png" alt="me" />
-          </div>
-        </div>
-        <div class="my-auto px-4 text-center sm:col-span-1 sm:px-0 sm:text-left">
-          <h4 class="pb-1 text-2xl font-semibold sm:text-4xl">DIEGO ALEJANDRO VARGAS RODRIGUEZ</h4>
-          <h4 class="mb-3 text-xl font-semibold">Ingeniero de Sistemas</h4>
-          <a href="https://www.linkedin.com/in/diego-vargas-develop/" class="hover:underline">
-            Linkedin
-          </a>
-          <br />
-          <a href="mailto:dialvaro30@gmail.com" class="hover:underline"> dialvaro30@gmail.com </a>
-          <br />
-          <a href="tel:+573132458975" class="hover:underline"> +57 3132458975 </a>
-        </div>
-      </div>
-      <div class="grid border-b-2 py-5 px-4 sm:px-12">
-        <h4
-          class="
-            mb-3 mb-0 mb-2
-            text-center text-xl
-            font-medium
-            uppercase
-            text-sky-600
-            sm:text-left sm:text-2xl
-          "
-        >
-          Sobre mí
-        </h4>
-        <p class="text-justify">
-          <b>Desarrollador web full-stack</b> con más de 4 años de experiencia, involucrado en todo
-          el ciclo de vida del desarrollo de software, proporcionando soluciones de TI para
-          organizaciones públicas y privadas con tecnologías como MySQL, Oracle 11g, PostgreSQL,
-          Laravel, Vuejs, Nuxtjs, Digital Ocean, Bootstrap, TailwindCSS y Javascript. <br /><br />
-          Me considero un entusiasta de la tecnología y el aprendizaje, nunca ha habido excusas para
-          aprender algo nuevo.
-        </p>
-      </div>
-      <div class="flex flex-row px-4 py-5 sm:px-12">
-        <div class="basis-3/4">
-          <h4
-            class="
-              mb-3 mb-0 mb-2
-              text-center text-xl
-              font-medium
-              uppercase
-              text-sky-600
-              sm:text-left sm:text-2xl
-            "
-          >
+      <Description />
+      <div class="md:flex md:flex-row px-4 py-5 md:px-12">
+        <div class="md:basis-3/4">
+          <h4 class="mb-2 text-center text-xl font-medium uppercase text-blue-600 md:text-left md:text-2xl">
             experiencia profesional
           </h4>
         </div>
-        <div class="basis-1/4">03</div>
+        <div class="md:flex-auto">
+          <Skills />
+        </div>
       </div>
     </div>
+    <Footer />
   </div>
   <!-- <section>
     <div class="container mx-auto py-8 text-center">
@@ -147,13 +102,16 @@
           <span class="font-medium text-gray-600 dark:text-gray-200">Dark mode</span>
         </div>
       </div> -->
-  <!-- <Footer /> -->
+  <!-- -->
 </template>
 
 <script setup lang="ts">
-import appStore from "../store";
+import Description from "../components/Description.vue";
+import Skills from "../components/Skills.vue";
 import Footer from "../components/Footer.vue";
+/* import appStore from "../store";
 import { toggleDark } from "../utils/darkMode";
-import { isDark } from "../utils/darkMode";
+import { isDark } from "../utils/darkMode"; */
 </script>
-<style scoped></style>
+<style scoped>
+</style>
