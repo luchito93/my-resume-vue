@@ -2,7 +2,7 @@
   {
     "company": "Soho Chile. Com S.A",
     "url": "https://www.soho.cl/",
-    "image": "../assets/icon-soho.webp",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-soho.webp",
     "startDate": "2019/11/01",
     "endDate": null,
     "positions": [
@@ -49,6 +49,36 @@
           "Tailwind CSS",
           "Nginx",
           "NodeJs"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "GridSoft",
+    "url": "https://gridsoft.co/",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-gridsoft.png",
+    "startDate": "2019/01/01",
+    "endDate": null,
+    "positions": [
+      {
+        "name": "Ceo GridSoft",
+        "startDate": "2019/01/01",
+        "endDate": null,
+        "responsabilities": [
+          "Diseño, Desarrollo e Implementación de Software web, paginas web, sitios web y Apps Mobile",
+          "Asesoría tecnológica",
+          "Mantenimiento de equipos de cómputo",
+          "Informar de los objetivos, gestión y logros de la empresa.",
+          "Tomar decisiones organizativas para un tiempo determinado de la empresa.",
+          "Cumplir funciones de líder, como: motivar y asesorar a los empleados que tiene a su cargo."
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Tailwind CSS",
+          "Nginx"
         ]
       }
     ]

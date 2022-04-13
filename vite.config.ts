@@ -11,7 +11,9 @@ export default defineConfig({
     https: false,
     proxy: {},
   },
-  plugins: [vue()],
+  plugins: [
+    vue()
+  ],
   resolve: {
     alias: {
       "~/": `${path.resolve(__dirname, "src")}/`,
