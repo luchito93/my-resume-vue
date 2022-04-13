@@ -1,0 +1,56 @@
+[
+  {
+    "company": "Soho Chile. Com S.A",
+    "url": "https://www.soho.cl/",
+    "image": "../assets/icon-soho.webp",
+    "startDate": "2019/11/01",
+    "endDate": null,
+    "positions": [
+      {
+        "name": "Desarrollador Full Stack",
+        "startDate": "2019/11/01",
+        "endDate": null,
+        "responsabilities": [
+          "Desarrollo de aplicaciones web con Vuejs ( Nuxt.js ).",
+          "Desarrollo de API Rest con Laravel.",
+          "Desarrollo de paginas web y temas con Wordpress",
+          "Maquetacion HTML, Boostrap, TailwindCSS"
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Wordpress",
+          "Tailwind CSS",
+          "Nginx",
+          "NodeJs",
+          "ReactJs/Next.js"
+        ]
+      },
+      {
+        "name": "Team Lead",
+        "startDate": "2021/06/01",
+        "endDate": "2021/10/31",
+        "responsabilities": [
+          "Investigar, diseñar, administrar programas de software",
+          "Probar y evaluar nuevos programas",
+          "Modificación del software para corregir errores, mejorar su rendimiento.",
+          "Implementación de herramientas, procesos y métricas de software",
+          "Dirección de programación de software y desarrollo de documentación.",
+          "Elaboración de informes sobre la programación de especificaciones, actividades o estado del proyecto."
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Wordpress",
+          "Tailwind CSS",
+          "Nginx",
+          "NodeJs"
+        ]
+      }
+    ]
+  }
+]
