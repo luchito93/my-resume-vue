@@ -5,11 +5,13 @@
     "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-soho.webp",
     "startDate": "2019/11/01",
     "endDate": null,
+    "showDate": true,
     "positions": [
       {
         "name": "Desarrollador Full Stack",
         "startDate": "2019/11/01",
         "endDate": null,
+        "showDate": true,
         "responsabilities": [
           "Desarrollo de aplicaciones web con Vuejs ( Nuxt.js ).",
           "Desarrollo de API Rest con Laravel.",
@@ -32,6 +34,7 @@
         "name": "Team Lead",
         "startDate": "2021/06/01",
         "endDate": "2021/10/31",
+        "showDate": true,
         "responsabilities": [
           "Investigar, diseñar, administrar programas de software",
           "Probar y evaluar nuevos programas",
@@ -59,11 +62,13 @@
     "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-gridsoft.png",
     "startDate": "2019/01/01",
     "endDate": null,
+    "showDate": true,
     "positions": [
       {
         "name": "Ceo GridSoft",
         "startDate": "2019/01/01",
         "endDate": null,
+        "showDate": false,
         "responsabilities": [
           "Diseño, Desarrollo e Implementación de Software web, paginas web, sitios web y Apps Mobile",
           "Asesoría tecnológica",

@@ -9,10 +9,10 @@
         class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
       </div>
       <a class="text-xl font-extrabold text-gray-900 dark:text-white flex items-center" :href="item.url">
-        <img :src="item.image" :alt="item.companyimage" class="mr-3 w-12 h-auto rounded-full ring-2 "> 
+        <img :src="item.image" :alt="item.companyimage" class="mr-3 w-12 h-auto rounded-full"> 
         <div>
           <p>{{ item.company }}</p>
-          <p class="text-sm">{{ item.startDate }} {{item.endDate ? `| ${item.endDate}` : '| Actualidad' }}</p>
+          <p class="text-sm">{{ item.startDate }} {{item.endDate ? `| ${item.endDate}` : '| Actualidad' }} {{item.showDate ? ' | ' + calculateTime(item.startDate, item.endDate) : null}}</p>
         </div>
       </a>
       <div class="relative border-l border-gray-200 dark:border-gray-700 mt-3">
@@ -21,10 +21,12 @@
             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
           </div>
           <div class="md:flex">
-            <div class="md:basis-4/6">
+            <div class="md:basis-full">
               <time class="text-gray-900 dark:text-white">
                 <p class="underline text-lg font-bold">{{ position.name }}</p>
-                <p class="text-sm no-underline">{{ position.startDate }} {{position.endDate ? `| ${position.endDate} |` : '| Actualidad |' }} {{calculateTime(position.startDate, position.endDate)}}</p>
+                <p class="text-sm no-underline" v-if="position.showDate">
+                {{ position.startDate }} {{position.endDate ? `| ${position.endDate} |` : '| Actualidad |' }} {{calculateTime(position.startDate, position.endDate)}}
+                </p>
               </time>
               <ul class="mb-4 text-base font-normal list-disc	text-gray-500 dark:text-gray-400 ml-4">
                 <li v-for="(responsability, index) in position.responsabilities" :key="index">
@@ -32,7 +34,8 @@
                 </li>
               </ul>
             </div>
-            <div class="md:basis-3/6 flex flex-wrap items-center">
+            <div class="md:basis-1/4 flex flex-wrap items-center hidden">
+              <p class="w-full text-center font-bold">Skills</p>
               <span v-for="(skill, index) in position.skills" :key="index" class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 h-5 mb-2 md:mb-0">
                 {{skill}}
               </span>
