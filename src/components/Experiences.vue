@@ -12,7 +12,7 @@
         <img :src="item.image" :alt="item.companyimage" class="mr-3 w-12 h-auto rounded-full"> 
         <div>
           <p>{{ item.company }}</p>
-          <p class="text-sm">{{ item.startDate }} {{item.endDate ? `| ${item.endDate}` : '| Actualidad' }} {{item.showDate ? ' | ' + calculateTime(item.startDate, item.endDate) : null}}</p>
+          <p class="text-sm">{{ item.startDate }} {{item.endDate ? `a ${item.endDate}` : '| Actualidad' }} {{item.showDate ? ' | ' + calculateTime(item.startDate, item.endDate) : null}}</p>
         </div>
       </a>
       <div class="relative border-l border-gray-200 dark:border-gray-700 mt-3">
@@ -25,7 +25,7 @@
               <time class="text-gray-900 dark:text-white">
                 <p class="underline text-lg font-bold">{{ position.name }}</p>
                 <p class="text-sm no-underline" v-if="position.showDate">
-                {{ position.startDate }} {{position.endDate ? `| ${position.endDate} |` : '| Actualidad |' }} {{calculateTime(position.startDate, position.endDate)}}
+                {{ position.startDate }} {{position.endDate ? `a ${position.endDate} |` : '| Actualidad |' }} {{calculateTime(position.startDate, position.endDate)}}
                 </p>
               </time>
               <ul class="mb-4 text-base font-normal list-disc	text-gray-500 dark:text-gray-400 ml-4">

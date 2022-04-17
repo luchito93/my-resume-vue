@@ -65,7 +65,7 @@
     "showDate": true,
     "positions": [
       {
-        "name": "Ceo GridSoft",
+        "name": "Ceo GridSoft | Profesional independiente",
         "startDate": "2019/01/01",
         "endDate": null,
         "showDate": false,
@@ -76,6 +76,97 @@
           "Informar de los objetivos, gestión y logros de la empresa.",
           "Tomar decisiones organizativas para un tiempo determinado de la empresa.",
           "Cumplir funciones de líder, como: motivar y asesorar a los empleados que tiene a su cargo."
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Tailwind CSS",
+          "Nginx"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Fundación Universitaria de San Gil - UNISANGIL",
+    "url": "https://unisangil.edu.co/",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-unisangil.png",
+    "startDate": "2019/03/01",
+    "endDate": null,
+    "showDate": true,
+    "positions": [
+      {
+        "name": "Administrador de base de datos",
+        "startDate": "2019/01/01",
+        "endDate": null,
+        "showDate": false,
+        "responsabilities": [
+          "Administrar y velar por el buen funcionamiento de las bases de datos que contienen la información de UNISANGIL.",
+          "Administrar las bases de datos alojadas en el servidor de Producción, Pruebas y Desarrollo.",
+          "Formular y proponer políticas de uso de las bases de datos.",
+          "Administración de bases de datos Oracle 11g, MySQL y PostgreSQL",
+          "Diseño, Desarrollo e Implementación de aplicaciones web con Laravel - Vuejs",
+          "Desarrollo e Implementación de APIs con Laravel y BD (Oracle 11g, MySQL, PostgreSQL)"
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Tailwind CSS",
+          "Nginx"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Manzana verde",
+    "url": "https://manzanaverde.la/",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-manzana-verde.svg",
+    "startDate": "2021/09/01",
+    "endDate": "2021/11/01",
+    "showDate": true,
+    "positions": [
+      {
+        "name": "Back End Developer | Freelancer",
+        "startDate": "2019/01/01",
+        "endDate": null,
+        "showDate": false,
+        "responsabilities": [
+          "Desarrollo de nuevas funcionalidades web con Vuejs y Laravel.",
+          "Modificación del software para corregir errores, mejorar su rendimiento.",
+          "Desarrollo de API Rest con Laravel."
+        ],
+        "skills": [
+          "Php|Laravel",
+          "JavaScript|jQuery",
+          "Vuejs|NuxtJs",
+          "Html|Sass",
+          "Tailwind CSS",
+          "Nginx"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Ese Hospital Regional de San Gil",
+    "url": "https://hregionalsangil.gov.co/",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-hrsg.png",
+    "startDate": "2016/09/01",
+    "endDate": "2019/02/28",
+    "showDate": true,
+    "positions": [
+      {
+        "name": "Ingeniero de sistemas",
+        "startDate": "2016/09/01",
+        "endDate": "2016/09/01",
+        "showDate": false,
+        "responsabilities": [
+          "Soporte y Manejo de BD InterBase",
+          "Diseño, Desarrollo e Implementación de aplicaciones web con PHP, MySQL y JQuery",
+          "Mantenimiento de equipos de computo",
+          "Manejo de reportes avanzados en Excel y BD"
         ],
         "skills": [
           "Php|Laravel",
