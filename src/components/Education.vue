@@ -6,15 +6,15 @@
       <img class="hidden dark:block mr-2 mb-1" src="../assets/icon-education-white.png" alt="education" width="32">
       EDUCACIÓN
     </h4>
-    <div class="border-b-2 border-blue-100 pb-3 dark:text-white transition-colors duration-200">
-      <h4 class="text-center font-bold md:font-semibold md:text-left text-lg underline md:no-underline mt-3 leading-[initial]">
+    <div class="pb-3 dark:text-white transition-colors duration-200">
+      <h4 class="font-bold md:font-semibold text-left text-lg mt-3 leading-[initial]">
         Fundación Universitaria de San Gil - UNISANGIL
       </h4>
       <p class="underline">Ingeniero de sistemas</p>
       <p class="text-xs">2013 - 2017</p>
     </div>
-    <div class="border-b-2 border-blue-100 pb-3 dark:text-white transition-colors duration-200">
-      <h4 class="text-center font-bold md:font-semibold md:text-left text-lg underline md:no-underline mt-3 leading-[initial]">
+    <div class="pb-3 dark:text-white transition-colors duration-200">
+      <h4 class="font-bold md:font-semibold text-left text-lg mt-3 leading-[initial]">
         Udemy
       </h4>
       <p class="underline">Dominando Laravel - De principiante a experto</p>
