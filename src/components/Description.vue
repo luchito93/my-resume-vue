@@ -1,5 +1,5 @@
 <template>
-  <div class="md:flex md:flex-row border-b-4 border-blue-300 py-6 dark:text-white dark:border-blue-200">
+  <div class="md:flex md:flex-row border-b-4 border-blue-300 py-6 dark:text-white dark:border-blue-200 transition-colors duration-200">
     <div class="md:basis-1/3">
       <div class="flex justify-center">
         <img class="h-56 rounded-lg" src="../assets/me.png" alt="me" />
@@ -22,8 +22,8 @@
       <ButtonModeDark />
     </div>
   </div>
-  <div class="grid border-b-2 border-blue-300 py-5 px-4 sm:px-12 dark:text-white dark:border-blue-200">
-    <h4 class="mb-3 mb-0 mb-2 text-center text-xl font-medium uppercase text-blue-600 dark:text-white dark:underline sm:text-left sm:text-2xl">
+  <div class="grid border-b-2 border-blue-300 py-5 px-4 sm:px-12 dark:text-white dark:border-blue-200 transition-colors duration-200">
+    <h4 class="mb-3 mb-0 mb-2 text-center text-xl font-medium uppercase text-blue-600 dark:text-white dark:underline sm:text-left sm:text-2xl transition-colors duration-200">
       Sobre mí
     </h4>
     <p class="text-justify">

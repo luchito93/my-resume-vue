@@ -1,5 +1,7 @@
 <template>
-  <h4 class="mb-3 text-center text-xl font-medium uppercase text-blue-600 md:text-2xl border-b-2 border-blue-300 dark:text-white dark:border-white">
+  <h4 class="mb-3 text-center text-xl font-medium uppercase text-blue-600 md:text-2xl border-b-2 border-blue-300 dark:text-white dark:border-white flex justify-center">
+    <img class="dark:hidden mr-2 mb-1" src="../assets/icon-skills-black.png" alt="education" width="32">
+    <img class="hidden dark:block mr-2 mb-1" src="../assets/icon-skills-white.png" alt="education" width="32">
     habilidades
   </h4>
   <div class="border-b-2 border-blue-100 pb-3 dark:text-white">
