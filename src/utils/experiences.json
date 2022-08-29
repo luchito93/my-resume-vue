@@ -57,6 +57,36 @@
     ]
   },
   {
+    "company": "The Pegasus Group Company S.A.",
+    "url": "https://www.pegasus.cl/",
+    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-pegasus.png",
+    "startDate": "2022/06/15",
+    "endDate": null,
+    "showDate": true,
+    "positions": [
+      {
+        "name": "Desarrollador Backend del proyecto Ministerio Publico - RGP",
+        "startDate": "2022/06/15",
+        "endDate": null,
+        "showDate": false,
+        "responsabilities": [
+          "Desarrollo y modificaciones de API Rest con Laravel.",
+          "Análisis de nuevas implementaciones de software.",
+          "Creación de nuevas funcionalidades y modificaciones de software."
+        ],
+        "skills": [
+          "Php|Laravel",
+          "Nginx",
+          "Ubuntu",
+          "Sql Server",
+          "JavaScript",
+          "Vuejs",
+          "Html|Sass"          
+        ]
+      }
+    ]
+  },
+  {
     "company": "GridSoft",
     "url": "https://gridsoft.co/",
     "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-gridsoft.png",
@@ -93,13 +123,13 @@
     "url": "https://unisangil.edu.co/",
     "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-unisangil.png",
     "startDate": "2019/03/01",
-    "endDate": null,
+    "endDate": "2022/08/31",
     "showDate": true,
     "positions": [
       {
         "name": "Administrador de base de datos",
-        "startDate": "2019/01/01",
-        "endDate": null,
+        "startDate": "2019/03/01",
+        "endDate": "2022/08/31",
         "showDate": false,
         "responsabilities": [
           "Administrar y velar por el buen funcionamiento de las bases de datos que contienen la información de UNISANGIL.",
