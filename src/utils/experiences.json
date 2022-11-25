@@ -65,7 +65,7 @@
     "showDate": true,
     "positions": [
       {
-        "name": "Desarrollador Backend del proyecto Ministerio Publico - RGP",
+        "name": "Desarrollador Backend",
         "startDate": "2022/06/15",
         "endDate": null,
         "showDate": false,
@@ -78,10 +78,9 @@
           "Php|Laravel",
           "Nginx",
           "Ubuntu",
+          "RedHat",
           "Sql Server",
-          "JavaScript",
-          "Vuejs",
-          "Html|Sass"          
+          "NodeJs"
         ]
       }
     ]
