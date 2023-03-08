@@ -96,28 +96,28 @@
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-700 text-center font-medium leading-none text-white"
-        style="width: 80%"
+        style="width: 85%"
       ></div>
     </div>
     Laravel
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-700 text-center font-medium leading-none text-white"
-        style="width: 85%"
+        style="width: 90%"
       ></div>
     </div>
     NodeJs
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-700 text-center font-medium leading-none text-white"
-        style="width: 40%"
+        style="width: 60%"
       ></div>
     </div>
     MySQL
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-700 text-center font-medium leading-none text-white"
-        style="width: 60%"
+        style="width: 75%"
       ></div>
     </div>
     Oracle 11g
@@ -131,7 +131,7 @@
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-700 text-center font-medium leading-none text-white"
-        style="width: 60%"
+        style="width: 65%"
       ></div>
     </div>
     SQL Server
@@ -159,7 +159,7 @@
     <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
       <div
         class="w-50 h-2.5 rounded-full bg-blue-500 text-center font-medium leading-none text-white"
-        style="width: 60%"
+        style="width: 70%"
       ></div>
     </div>
     Ubuntu | Centos
@@ -174,6 +174,13 @@
       <div
         class="w-50 h-2.5 rounded-full bg-blue-500 text-center font-medium leading-none text-white"
         style="width: 60%"
+      ></div>
+    </div>
+    Docker
+    <div class="mb-2 w-full rounded-full bg-gray-200 dark:bg-gray-700">
+      <div
+        class="w-50 h-2.5 rounded-full bg-blue-500 text-center font-medium leading-none text-white"
+        style="width: 40%"
       ></div>
     </div>
   </div>
