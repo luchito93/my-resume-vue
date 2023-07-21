@@ -57,30 +57,32 @@
     ]
   },
   {
-    "company": "The Pegasus Group Company S.A.",
-    "url": "https://www.pegasus.cl/",
-    "image": "https://gridsoft.fra1.digitaloceanspaces.com/icons/icon-pegasus.png",
-    "startDate": "2022/06/15",
-    "endDate": "2022/12/31",
+    "company": "Raptor Cx",
+    "url": "https://raptorcx.com/",
+    "image": "https://do-storage.gridsoft.co/icons/icon-raptor.svg",
+    "startDate": "2022/03/15",
+    "endDate": null,
     "showDate": true,
     "positions": [
       {
-        "name": "Desarrollador Backend | Ministerio Público RGP-Chile",
-        "startDate": "2022/06/15",
+        "name": "Desarrollador Full Stack",
+        "startDate": "2022/03/15",
         "endDate": null,
         "showDate": false,
         "responsabilities": [
           "Desarrollo y modificaciones de API Rest con Laravel.",
-          "Análisis de nuevas implementaciones de software.",
-          "Creación de nuevas funcionalidades y modificaciones de software."
+          "Análisis y desarrollo de nuevas funcionalidades con Laravel y Vuejs.",
+          "Optimización de funcionalidades."
         ],
         "skills": [
           "Php|Laravel",
           "Nginx",
           "Ubuntu",
-          "RedHat",
-          "Sql Server",
-          "NodeJs"
+          "Vuejs",
+          "MySQL",
+          "Bootstrap",
+          "JavaScript|jQuery",
+          "Html|Sass"
         ]
       }
     ]
@@ -112,7 +114,11 @@
           "Vuejs|NuxtJs",
           "Html|Sass",
           "Tailwind CSS",
-          "Nginx"
+          "Nginx",
+          "NodeJs",
+          "Digital Ocean",
+          "GitHub",
+          "MySQL"
         ]
       }
     ]
