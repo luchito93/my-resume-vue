@@ -9,7 +9,7 @@
     </div>
     <div class="my-2 px-4 text-center md:my-auto md:flex-auto md:px-0 md:text-left">
       <h1 class="pb-1 text-2xl font-semibold md:text-4xl">DIEGO ALEJANDRO VARGAS RODRIGUEZ</h1>
-      <h2 class="mb-3 text-xl font-semibold">Ingeniero de Sistemas</h2>
+      <h2 class="mb-3 text-xl font-semibold">Ingeniero de Sistemas / Desarrollador Full Stack</h2>
       <a
         href="https://www.linkedin.com/in/diego-vargas-develop/"
         class="underline hover:font-semibold"
@@ -21,7 +21,12 @@
         dialvaro30@gmail.com
       </a>
       <br />
-      <a href="tel:+573132458975" class="underline hover:font-semibold"> +57 3132458975 </a>
+      <a
+        href="https://wa.me/573132458975?text=Hola%20Diego%20Alejandro%20Vargas%20Rodriguez"
+        class="underline hover:font-semibold"
+      >
+        +573132458975
+      </a>
     </div>
     <div class="fixed top-2 z-50 ml-2">
       <ButtonModeDark />
